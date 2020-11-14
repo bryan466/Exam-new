@@ -1,0 +1,988 @@
+ul, ul ,li {
+    margin: 0; padding: 0; list-style: none; 
+ }
+
+ h1, h2, h3, p {
+  margin: 0; padding: 0;
+}
+form{
+  margin: 0;
+  padding: 2px;
+}
+ body{
+     border: 0;
+     margin: 0;
+     font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+ }
+ img{
+  display:block;
+  margin:auto;
+  }
+      .contenedor {
+     
+        width: 100%;
+        height: 1800px;
+        background-color: rgb(64, 171, 206);
+      } 
+      /* --- Clase que agregaremos cuando el usuario haga scroll --- */
+      .header{
+          height: 50px;
+          width: 1360px;
+          color: rgb(96, 237, 216);
+      background-color: rgb(230, 198, 156);
+          position: fixed;
+       }
+       #menu ul#lista li {
+        display: inline;
+       }
+       #lista{
+         margin-top: -20px;
+         margin-left: 840px;
+       }
+       .logo{
+        margin-top: 5px;
+         margin-right: 1250px;
+       }
+       .name{
+         margin-left: 90px;
+         margin-top: -25px;
+       }
+       /*CODIGO DEL CARRITO DE COMPRAS*/
+       .carrito{
+         margin-left: 1270px;
+         margin-top: -42px;
+       }
+       /*CODIGO DE LA PRIMERA VENTANA CON LA IMAGEN Y EL TITULO CONSUS TEXTO*/
+       .inicio{
+         background-color: cadetblue;
+         height: 700px;
+       }
+       .imagen{
+         margin-left: -300px;
+         padding-top: 50px;
+        
+       }
+       .iniciot{
+         margin-left: 10px;
+         margin-top: -350px;
+         color: rgb(0, 0, 0);
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         font-size: 50px;
+       }
+
+       .btn{
+         background-color: cornflowerblue;
+         font-size: 25px;
+         border-radius: 5px;
+       }
+
+       .descripcion{
+         margin-top: 20px;
+         background-color: cornflowerblue;
+         height: 60px;
+       }
+       /*CODIGO DE LA SEGUNDA PAGINA*/
+       .descripcion2{
+         height: 550px;
+         background-color: darkkhaki;
+       }
+       .desc2{
+         font-size: 20px;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         margin-left: 600px;
+         padding-top: 30px;
+         margin-bottom: 60px;
+       }
+       .desc3{
+         font-size: 18px;
+         margin-left: 370px;
+         margin-top: -45px;
+         margin-bottom: 20px;
+       }
+       .imagen3{
+         margin-left:-380px;
+         margin-top: -295px;
+       }
+       .imagen4{
+         margin-left: -380px;
+         margin-top: 20px;
+       }
+       .imagen5{
+        margin-left: -380px;
+        margin-top: 25px;
+      }
+      .imagen6{
+        margin-left: 380px;
+        margin-top: -338px;
+      }
+      .imagen7{
+        margin-left: 385px;
+        margin-top: 25px;
+      }
+      .imagen8{
+        margin-left: 385px;
+        margin-top: 36px;
+      }
+    
+      .info-d1{
+       margin-top: -330px;
+        margin-left: 60px;
+      }
+    
+      .info-d2{
+        margin-top: 10px;
+         margin-left: 60px;
+         
+       }
+
+       .info-d3{
+        margin-top: 25px;
+         margin-left: 60px;
+         
+       }
+
+       .info-d4{
+        margin-top: -345px;
+         margin-left: 940px;
+         
+       }
+      
+       .info-d5{
+        margin-top: 15px;
+        margin-left: 940px;
+         
+       }
+
+       .info-d6{
+        margin-top: 20px;
+        margin-left: 940px;
+       }
+       /*CODIGO DE LA TERCERA PAGINA*/
+
+       .descripcion3{
+        background-color: slateblue;
+        height: 200px;
+        width: 1350px;
+       }
+       .descripcion3-1{
+         padding-top: 55px;
+         margin-left: 165px;
+          font-size: 23px;
+          
+       }
+       .btn2{
+         margin-left: 850px;
+         font-size: 20px;
+         margin-top: -150px;
+         border-radius: 7px;
+       }
+
+       /*CODIFO DE LA PARTE DE 4 DEL EJERCICIO*/
+
+       .descripcion4{
+        height: 650px;
+        width: 1350px;
+        margin-top: 1px;
+        background-color: springgreen;
+       }
+       .desc4{
+         margin-left: 400px;
+         padding-top:35px;
+         font-size: 30px;
+         color: white;
+       }
+       .desc5{
+         padding-top:2pt;
+         margin-left:333px;
+       }
+       .desc6{
+    
+        padding-left:50px;
+      }
+      
+      .desc7{
+        margin-left:80px;
+      }
+      
+      .desc8{
+     
+        padding-left:340px;
+      }
+      .desc9{
+ 
+        padding-left:125px;
+      }
+      .desc10{
+       
+        padding-left:120px;
+      }
+      
+       .imagen9{
+        padding-left:240px;
+        margin-top:65px;
+      }
+      .imagen10{
+        margin-left:20px;
+        margin-top: 70px;
+      }
+      .imagen11{
+        margin-left:20px;
+       margin-top: 65px;
+     }
+     
+     .imagen12{
+      margin-left:235px;
+      margin-top: 74px;
+     }
+     
+     .imagen13{
+       margin-left: 22px;
+       margin-top:71px;
+     }
+    
+     .imagen14{
+      margin-left: 22px;
+       margin-top:67px;
+     }
+     .trimg{
+       margin-top:-70px;
+     }
+     .descripcion5{
+      height: 350px;
+        width: 1350px;
+        margin-top: 1px;
+        background-color: rgb(183, 183, 183);
+     }
+     .imagen15{
+       padding-left: 40px;
+       padding-top: 40px;
+
+     }
+
+     .desc11{
+       margin-left: 450px;
+       font-family: Karla,sans-serif;
+       margin-top:25px;
+       font-weight: 25px;
+     }
+     .desc12{
+      font-family: Karla,sans-serif;
+       margin-left:645px;
+       padding-top: 20px;
+       font-size: 15px;
+     }
+       /*CODIFO DE LA PARTE DE 5 DEL EJERCICIO*/
+
+    .descripcion6{
+      padding-top:155px;
+        height: 605px;
+        width: 840px;
+        margin-top: 1px;
+        padding-bottom: 100pt;
+        margin-left:260px;
+        margin-bottom:60px;
+        background-color: rgb(255, 255, 255);
+       }
+       .desc13{
+        font-family: Karla,sans-serif;
+         font-size: 30px;
+         margin-left: 250px;
+         margin-top: -105px;
+         margin-bottom: 25px;
+
+
+       }
+
+       .cube-0{
+        height: 35px;
+        width: 100px;
+        color: #878a9a;
+        text-align: center;
+        padding-top:5px ;
+        background-color: #ebecf2;
+       }
+       .cube-1{
+        height: 35px;
+        width: 100px;
+        color: #878a9a;
+        text-align: center;
+        padding-top:5px ;
+        background-color: #ebecf2;
+      }
+      .cube-2{
+        height: 35px;
+        width: 100px;
+        color: #878a9a;
+        text-align: center;
+        padding-top:5px ;
+        background-color: #ebecf2;
+      }
+      .cube-3{
+        height: 35px;
+        width: 100px;
+        color: #878a9a;
+        text-align: center;
+        padding-top:5px ;
+        background-color: #ebecf2;
+      }
+      .cube-4{
+        height: 35px;
+        width: 100px;
+        color: #878a9a;
+        text-align: center;
+        padding-top:5px ;
+        background-color: #ebecf2;
+      }
+      .cube-5{
+        height: 35px;
+        width: 100px;
+        color: #878a9a;
+        text-align: center;
+        padding-top:5px ;
+        background-color: #ebecf2;
+      }
+      .cube-6{
+        height: 35px;
+        width: 100px;
+        color: #878a9a;
+        text-align: center;
+        padding-top:5px ;
+        background-color: #ebecf2;
+      }
+      .cube-7{
+        height: 35px;
+        width: 100px;
+        color: #878a9a;
+        text-align: center;
+        padding-top:5px ;
+        background-color: #ebecf2;
+      }
+      /*SEGUNDA FILA DE LA TABLA DE DIAS*/
+
+          .cube2-0{
+            height: 145px;
+            width: 100px;
+            color: #878a9a;
+            text-align: center;
+            padding-top:5px ;
+            background-color: #ebecf2;
+          }
+          .cube2-1{
+          height: 145px;
+          width: 100px;
+          color: #878a9a;
+          text-align: center;
+          padding-top:5px ;
+          color:white;
+          background-color: #6da1df;
+          }
+          .cube2-2{
+            height: 145px;
+            width: 100px;
+            color: #878a9a;
+            text-align: center;
+            padding-top:5px ;
+            color:white;
+            background-color: #c7c351;
+            }
+            .cube2-3{
+              height: 145px;
+              width: 100px;
+              color: #878a9a;
+              text-align: center;
+              padding-top:5px ;
+              color:white;
+              background-color: #6da1df;
+              }
+              .cube2-4{
+                height: 145px;
+                width: 100px;
+                color: #878a9a;
+                text-align: center;
+                padding-top:5px ;
+                color:white;
+                background-color: #c7c351;
+                }
+                .cube2-5{
+                  height: 145px;
+                  width: 100px;
+                  color: #878a9a;
+                  text-align: center;
+                  padding-top:5px ;
+                  color:white;
+                  background-color: #6da1df;
+                  }
+                  .cube2-6{
+                    height: 145px;
+                    width: 100px;
+                    color: #878a9a;
+                    text-align: center;
+                    padding-top:5px ;
+                    color:white;
+                    background-color: #c7c351;
+                    }
+                    .cube2-7{
+                      height: 145px;
+                      width: 100px;
+                      color: #878a9a;
+                      text-align: center;
+                      padding-top:5px ;
+                      color:white;
+                      background-color: #6da1df;
+                      }
+                      /*TERCERA FILA DE LA TABLA DE DIAS*/
+                                               
+                      .cube3-0{
+                        height: 145px;
+                        width: 100px;
+                        color: #878a9a;
+                        text-align: center;
+                        padding-top:5px ;
+                        background-color: #FFFFFF;
+                        } .cube3-1{
+                          height: 145px;
+                          width: 100px;
+                          color: #878a9a;
+                          text-align: center;
+                          padding-top:5px ;
+                          color:white;
+                          background-color: #cb75c1;
+                          } .cube3-2{
+                            height: 145px;
+                            width: 100px;
+                            color: white;
+                            text-align: center;
+                            padding-top:5px ;
+                            background-color: #FFFFFF;
+                            } .cube3-3{
+                              height: 145px;
+                              width: 100px;
+                              color: #878a9a;
+                              text-align: center;
+                              padding-top:5px ;
+                              color:white;
+                              background-color: #cb75c1;
+                              } .cube3-4{
+                                height: 145px;
+                                width: 100px;
+                                color: white;
+                                text-align: center;
+                                padding-top:5px ;
+                                background-color: #FFFFFF;
+                                } .cube3-5{
+                                  height: 145px;
+                                  width: 100px;
+                                  color: #878a9a;
+                                  text-align: center;
+                                  padding-top:5px ;
+                                  color:white;
+                                  background-color: #cb75c1;
+                                  } .cube3-6{
+                                    height: 145px;
+                                    width: 100px;
+                                    color: white;
+                                    text-align: center;
+                                    padding-top:5px ;
+                                    background-color: #FFFFFF;
+                                    } .cube3-7{
+                                      height: 145px;
+                                      width: 100px;
+                                      color: #878a9a;
+                                      text-align: center;
+                                      padding-top:5px ;
+                                      color:white;
+                                      background-color: #cb75c1;
+                                      } 
+                            
+                                       /*CUARTA FILA DE LA TABLA DE DIAS*/
+
+                                       .cube4-0{
+                                        height: 145px;
+                                        width: 100px;
+                                        color: #878a9a;
+                                        text-align: center;
+                                        padding-top:5px ;
+                                        background-color: #ebecf2;
+                                        } 
+                                        .cube4-1{
+                                          height: 145px;
+                                          width: 100px;
+                                          color: #878a9a;
+                                          text-align: center;
+                                          padding-top:5px ;
+                                          color:white;
+                                          background-color: #c7c351;
+                                          } 
+                                          .cube4-2{
+                                            height: 145px;
+                                            width: 100px;
+                                            color:white;
+                                            text-align: center;
+                                            padding-top:5px ;
+                                            background-color: #87e8e6;
+                                            } 
+                                            .cube4-3{
+                                              height: 145px;
+                                              width: 100px;
+                                              color: #878a9a;
+                                              text-align: center;
+                                              padding-top:5px ;
+                                              background-color: #ebecf2;
+                                              } 
+                                              .cube4-4{
+                                                height: 145px;
+                                                width: 100px;
+                                                color:white;
+                                                text-align: center;
+                                                padding-top:5px ;
+                                                background-color: #87e8e6;
+                                                } 
+                                                .cube4-5{
+                                                  height: 145px;
+                                                  width: 100px;
+                                                  color: #878a9a;
+                                                  text-align: center;
+                                                  padding-top:5px ;
+                                                  background-color: #ebecf2;
+                                                  } 
+                                                  .cube4-6{
+                                                    height: 145px;
+                                                    width: 100px;
+                                                    color:white;
+                                                    text-align: center;
+                                                    padding-top:5px ;
+                                                    background-color: #87e8e6;
+                                                    }   
+                                                    .cube4-7{
+                                                      height: 145px;
+                                                      width: 100px;
+                                                      text-align: center;
+                                                      padding-top:5px ;
+                                                      color:white;
+                                                      background-color: #c7c351;
+                                                      }   
+                                                    /*Quinta FILA DE LA TABLA DE DIAS*/
+
+                                                    .cube5-0{
+                                                      height: 145px;
+                                                      width: 100px;
+                                                      color: #878a9a;
+                                                      text-align: center;
+                                                      padding-top:5px ;
+                                                      background-color: #FFFFFF;
+                                                      } 
+                                                      .cube5-1{
+                                                        height: 145px;
+                                                        width: 100px;
+                                                        color:white;
+                                                        text-align: center;
+                                                        padding-top:5px ;
+                                                        background-color: #fa9222;
+                                                        } 
+                                                        .cube5-2{
+                                                          height: 145px;
+                                                          width: 100px;
+                                                          color: #878a9a;
+                                                          text-align: center;
+                                                          padding-top:5px ;
+                                                          background-color: #ffffff;
+                                                          } 
+                                                          .cube5-3{
+                                                            height: 145px;
+                                                            width: 100px;
+                                                            color: white;
+                                                            text-align: center;
+                                                            padding-top:5px ;
+                                                            background-color: #fa9222;
+                                                            } 
+                                                            .cube5-4{
+                                                              height: 145px;
+                                                              width: 100px;
+                                                              color: #878a9a;
+                                                              text-align: center;
+                                                              padding-top:5px ;
+                                                              background-color: #FFFFFF;
+                                                              } 
+                                                              .cube5-5{
+                                                                height: 145px;
+                                                                width: 100px;
+                                                                color: white;
+                                                                text-align: center;
+                                                                padding-top:5px ;
+                                                                background-color: #fa9222;
+                                                                } 
+                                                                .cube5-6{
+                                                                  height: 145px;
+                                                                  width: 100px;
+                                                                  color: #878a9a;
+                                                                  text-align: center;
+                                                                  padding-top:5px ;
+                                                                  background-color: #FFFFFF;
+                                                                  }   
+                                                                  .cube5-7{
+                                                                    height: 145px;
+                                                                    width: 100px;
+                                                                    color:white;
+                                                                    text-align: center;
+                                                                    padding-top:5px ;
+                                                                    background-color: #fa9222;
+                                                                    }   
+           /*CODIFO DE LA PARTE DE 6      DEL EJERCICIO-------------------------------------------------------------------------------------------*/
+
+           .descripcion7{
+             height: 440px;
+             width:1350px;
+             background-color: rgb(64, 144, 187);
+             margin-bottom:20px;
+           }
+           .cuadro{
+            border: white 3px solid;
+             height: 350px;
+             width:850px;
+             margin-left:240px;
+             margin-top:15px;
+           }
+
+            .textdesc3{
+              margin-left:190px;
+              margin-top:-180px;
+              font-size: 25px;
+              margin-bottom:5px;
+            }
+            .textdesc4{
+              margin-top: -5px;
+              margin-bottom: 25px;
+              margin-left:190px;
+            }
+           .textdesp7{
+             margin-left:400px;
+             margin-top:-100px;
+             width:490px;
+             font-size: 13px;
+             font-family: Karla,sans-serif;
+           }
+           
+
+           .imagen16{
+             padding-top:110px;
+             margin-left:-650px;
+             margin-bottom:40px;
+           }
+           .fb{
+             margin-left: -450px;
+             margin-top:-110px;
+           }
+           .tw{
+             margin-top:-25px;
+             margin-left:-370px;
+           }
+           .inst{
+             margin-left:-295px;
+             margin-top:-20px;
+           }
+           .in{
+             margin-left:-215px;
+             margin-top:-25px;
+           }
+           .go{
+             margin-left:-129px;
+             margin-top:-28px;
+           }
+           
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+
+        .descripcion8{
+          height: 350px;
+          background-color: #878a9a;
+          margin-bottom:25px;
+        }   
+        .imagen17{
+          margin-left: -680px;
+          padding-top:20px;
+        }    
+        
+        .fras1{
+          margin-left:550px;
+          margin-top: -250px;
+          font-size: 15pt;
+        }
+        .fras2{
+          margin-left:550px;
+          font-size: 16pt;
+        }
+        .fras3{
+          margin-left:550px;
+          font-size: 16pt;
+        }
+
+
+  /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+          .descripcion9{
+            height: 160px;
+            background-color: #5267de;
+          }
+         
+          .fras5{
+            margin-left: 50px;
+          }
+          .fras7{
+            margin-left:60px;
+          }
+          .fras9{
+            margin-left:19px;
+          }
+          .fras11{
+            margin-left:17px;
+          }
+          .d91{
+            margin-top:40px;
+            margin-left:340px;
+          }
+          .d92{
+            margin-top:40px;
+            margin-left:60px;
+          }
+          .d93{
+            margin-top:40px;
+            margin-left:50px;
+          }
+          .d94{
+            margin-top:40px;
+            margin-left:50px;
+          } .d95{
+            margin-top:40px;
+            margin-left:60px;
+          }
+          /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+          .descripcion10{
+            height: 560px;
+            background-color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          }
+          .ventas{
+            padding-top:25px;
+            font-size: 35px;
+            margin-left:520px;
+            margin-bottom:80px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+          }
+          .e91{
+            margin-left: 290px;
+          }
+          .e92{
+            margin-top:-5px;
+            margin-left:35px;
+          }
+          .e93{
+            margin-left:15px;
+          }
+          .e94{
+            margin-left:50px;
+          }
+
+          .fras13{
+            padding-top: 10px;
+              margin-left: 52px;
+          }
+          .fras15{
+             padding-top: 10px;
+            margin-left: 55px;
+          }
+          .fras17{
+            padding-top: 10px;
+            margin-left:20px;
+          }
+          .fras19{
+            padding-top: 10px;
+            margin-left:5px;
+          }
+          .btn2{
+            margin-top:60px;
+            margin-left:560px;
+            border-radius:7px;
+          }
+          /*CODIGO DE LA SECCION 11 DE LA PAGINA*/
+          .descripcion11{
+            height: 420px;
+            background-color: #a7cdde;
+            color:white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          }
+
+          .f94{
+            margin-left:180px;
+            margin-top:5px;
+            font-size: 20px;
+          }
+          .f95{
+            margin-left:80px;
+            margin-top:5px;
+            font-size: 20px;
+          }
+          .f96{
+            margin-left:100px;
+            margin-top:80px;
+            font-size: 20px;
+          }
+
+            .btn3{
+              font-size: 12px;
+            }  
+            .btn4{
+              font-size: 12pt;
+              
+              }
+            .btn5{
+              font-size: 12pt;
+              
+              }
+              .fras23{
+                margin-bottom:25px;
+              }
+              .fras19{
+                margin-bottom:25px;
+              }
+              .fras21{
+                margin-bottom:25px;
+              }
+              .btns{
+                border-radius:20px;
+                padding-top:10px;
+                padding-left:10px;
+                padding-right:10px;
+                padding-bottom:10px;
+              }
+              .btnsss{
+                border-radius:20px;
+                padding-top:10px;
+                padding-left:10px;
+                padding-right:10px;
+                padding-bottom:10px;
+              }
+              .btnss{
+                border-radius:20px;
+                padding-top:10px;
+                padding-left:10px;
+                padding-right:10px;
+                padding-bottom:10px;
+              }
+         
+
+          /*CODIGO DE LA SECCION 12 DE LA PAGINA---------------------------------------------------------------------------------------------------------------------------*/
+          .descripcion12{
+            height: 380px;
+            background-color: #f2e65d;
+          }
+          
+          .titulo12{
+          font-size:30px;
+          margin-left:480px;
+          padding-top:15px;
+          }
+/*-------------------------------------------*/
+          .imagen21{
+            margin-left:-110px;
+            margin-top:30px;
+          }
+          .a1-1{
+            margin-left:265px;
+              margin-top:-60px;
+          }
+          .a1-2{
+            margin-left:265px;
+            font-Size:12px;
+          }
+
+/*----------------------------------------*/
+          .imagen22{
+            margin-left:-340px;
+            margin-top: 30px;
+
+          }
+          .a2-1{
+            margin-left:175px;
+              margin-top:-60px;
+          }
+          .a2-2{
+            margin-left:175px;
+                 font-Size:12px;
+          }
+/*----------------------------------------------*/
+.c1{
+  margin-top:-60px;
+}
+            .imagen23{
+              margin-left:-110px;
+              margin-top:120px;
+            }
+            .c1-1{
+              margin-left:265px;
+                margin-top:-65px;
+            }
+            .c1-2{
+              margin-left:265px;
+              font-Size:12px;
+            }
+
+            /*----------------------------------------*/
+            .imagen24{
+              margin-left:-340px;
+              margin-top: 30px;
+
+            }
+            .c2-1{
+              margin-left:175px;
+                margin-top:-60px;
+            }
+            .c2-2{
+              margin-left:175px;
+                  font-Size:12px;
+            }
+
+
+
+          /*CODIGO DE LA SECCION 13 DE LA PAGINA*/
+          .descripcion13{
+            height: 50px;
+            background-color: #46bfe1;
+          }   
+
+
+          /*CODIGO DE LA SECCION 14 DE LA PAGINA*/
+
+          .descripcion14{
+            height: 550px;
+            background-color: #242121;
+          }
+          
+
+          .fb2{
+            margin-left: -450px;
+            margin-top:-110px;
+          }
+          .tw2{
+            margin-top:-25px;
+            margin-left:-370px;
+          }
+          .inst2{
+            margin-left:-295px;
+            margin-top:-20px;
+          }
+          .in2{
+            margin-left:-215px;
+            margin-top:-25px;
+          }
+          .go2{
+            margin-left:-129px;
+            margin-top:-28px;
+          }
+          .red2{
+                margin-top:55px;
+                margin-bottom:-20px;
+          }
+          
